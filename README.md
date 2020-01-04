@@ -1,6 +1,6 @@
 # Arrr::Cte :boat:
 
-PostgreSQL CTE queries for Rails and ActiveRecord.
+CTE queries for Rails/ActiveRecord and PostgreSQL
 
 ## Installation
 
