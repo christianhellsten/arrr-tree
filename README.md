@@ -1,4 +1,4 @@
-# Arrr::Cte
+# Arrr::Cte :boat:
 
 PostgreSQL CTE queries for Rails and ActiveRecord.
 
@@ -7,7 +7,7 @@ PostgreSQL CTE queries for Rails and ActiveRecord.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cte-rails', git: 'git@github.com:christianhellsten/cte-rails.git'
+gem 'cte-rails', git: 'git@github.com:christianhellsten/arrr-cte.git'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install cte-rails
+    $ gem install arrr-cte
 
 ## Usage
 
