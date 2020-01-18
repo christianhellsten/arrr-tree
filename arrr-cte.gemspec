@@ -4,20 +4,20 @@ require "arrr/cte/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "arrr-cte"
-  spec.version       = Arrr::Cte::VERSION
+  spec.version       = Arrr::Tree::VERSION
   spec.authors       = ["Christian Hellsten"]
   spec.email         = ["christian@aktagon.com"]
 
-  spec.summary       = %q{CTE queries for Rails/ActiveRecord}
-  spec.description   = %q{CTE queries for Rails/ActiveRecord}
-  spec.homepage      = "https://github.com/christianhellsten/cte-rails"
+  spec.summary       = %q{Querying trees with CTEs and Rails/ActiveRecord}
+  spec.description   = %q{Querying trees with CTEs and Rails/ActiveRecord}
+  spec.homepage      = "https://github.com/christianhellsten/arrr-tree"
   spec.license       = "MIT"
 
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/christianhellsten/cte-rails"
-  spec.metadata["changelog_uri"] = "https://github.com/christianhellsten/cte-rails"
+  spec.metadata["source_code_uri"] = "https://github.com/christianhellsten/arrr-tree"
+  spec.metadata["changelog_uri"] = "https://github.com/christianhellsten/arrr-tree"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.

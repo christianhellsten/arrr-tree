@@ -1,13 +1,13 @@
-# Arrr::Cte :boat:
+# Arrr::Tree :boat:
 
-CTE queries for Rails/ActiveRecord and PostgreSQL
+Tree queries with CTEs for Rails/ActiveRecord and PostgreSQL
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'cte-rails', git: 'git@github.com:christianhellsten/arrr-cte.git'
+gem 'arrr-tree', git: 'git@github.com:christianhellsten/arrr-tree.git'
 ```
 
 And then execute:
@@ -16,13 +16,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install arrr-cte
+    $ gem install arrr-tree
 
 ## Usage
 
 ```ruby
 class Organization
-  include Arrr::Cte
+  include Arrr::Tree
 end
 ```
 
@@ -46,7 +46,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/christianhellsten/cte-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/christianhellsten/tree-rails. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
@@ -54,4 +54,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Arrr::Cte project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/christianhellsten/cte-rails/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Arrr::Tree project’s codebases, issue trackers, chat rooms and mailing lists is expetreed to follow the [code of conduct](https://github.com/christianhellsten/cte-rails/blob/master/CODE_OF_CONDUCT.md).

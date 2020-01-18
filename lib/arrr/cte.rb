@@ -1,13 +1,13 @@
-require "arrr/cte/version"
+require "arrr/tree/version"
 
 module Arrr
   # CTE queries for ActiveRecord / Rails
   #
   # class Node < ApplicationRecord
-  #   include Arrr::Cte
+  #   include Arrr::Tree
   # end
   #
-  module Cte
+  module Tree
     extend ActiveSupport::Concern
 
     included do
