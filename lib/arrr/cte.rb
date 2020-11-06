@@ -68,7 +68,7 @@ module Arrr
             #{self.class.table_name} ON #{self.class.table_name}.parent_id = tree.id
           WHERE NOT
             #{self.class.table_name}.id = ANY(path) -- avoid infinite loops where e.g. parent = self
-        ) SELECT #{cols} FROM tree as #{self.class.table_name}
+        ) SELECT #{cols} FROM tree) as #{self.class.table_name}
       SQL
     end
   end
